@@ -61,7 +61,8 @@ a:visited, a:link{
 	text-shadow: 2px 2px black;
 }
 #logButtons{
-	width: 100px;
+	width: 50%;
+	max-width: 100px;
 	height: 313px;
 	float:left;
 	background-image: url("../images/logBG.png");
@@ -105,6 +106,8 @@ a:visited, a:link{
 	width: 100%;
 	display: flex;
 	justify-content: center;
+	position: relative;
+	z-index: 1;
 }
 
 .table{
@@ -128,6 +131,9 @@ img{
 
 .logImg{
 	width: 100%;
+}
+.logImg:hover, #arb:hover{
+	opacity: 1;
 }
 .notImg{
 	opacity: 0.3;
