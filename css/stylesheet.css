@@ -51,6 +51,14 @@ a:visited, a:link{
 	color: yellow;
 }
 
+hr{
+	position: relative;
+	left: -5%;
+	height: 2px;
+	color: #574e3f;
+	background-color: #574e3f;
+}
+
 .tablink{
 	background: none;
 	border: none;
@@ -59,11 +67,13 @@ a:visited, a:link{
 	font-size: 26px;
 	text-align: center;
 	text-shadow: 2px 2px black;
+	position: relative;
+	left: 5%;
 }
 #logButtons{
 	width: 50%;
 	max-width: 100px;
-	height: 313px;
+	height: 340px;
 	float:left;
 	background-image: url("../images/logBG.png");
 	
@@ -85,7 +95,7 @@ a:visited, a:link{
 }
 #collLogContents{
 	background-image: url("../images/logoBGSmall.png");
-	height: 313px;
+	height: 340px;
 	position: relative;
 	z-index: -1;
 	max-width: 410px;
@@ -123,6 +133,8 @@ a:visited, a:link{
 }
 table{
 	table-layout: fixed;
+	top: -10px;
+	position: relative;
 }
 
 img{
