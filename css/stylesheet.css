@@ -1,0 +1,148 @@
+@font-face {
+	font-family: 'runescape';
+	font-style: normal;
+	font-weight: bold;
+	src: url('https://images.wikia.nocookie.net/runescape/images/a/ab/Runescape_chat.eot') format('embedded-opentype'),
+		local("RuneScape Chat"),
+		url('https://images.wikia.nocookie.net/runescape/images/8/87/Runescape_chat.woff') format('woff');
+}
+@font-face {
+	font-family: 'runescape';
+	font-style: normal;
+	font-weight: normal;
+	src: url("../fonts/RuneScape-Plain-12.otf") format("opentype"),
+		 url("../fonts/RuneScape-Plain-12.ttf") format("truetype");
+}
+html{
+    background-image: url("../images/bg.png");
+    background-color: black;
+	background-position: top center;
+	color: yellow;
+	text-shadow: 2px 2px black;
+}
+
+
+h1{
+    font-family: 'runescape';
+	font-weight: bold;
+    text-align: center;
+    font-size: 50px;
+    color: yellow;
+	text-shadow: 2px 2px black;
+}
+
+h2{
+    font-family: 'runescape';
+    text-align: center;
+    font-size: 30px;
+    color: yellow;
+	text-shadow: 2px 2px black;
+    margin-bottom: -5px;
+}
+
+li{
+	font-family: 'runescape';
+	text-align: center;
+	font-size: 26px;
+	color: yellow;
+}
+
+a:visited, a:link{
+	color: yellow;
+}
+
+.tablink{
+	background: none;
+	border: none;
+	color: orange;
+	font-family: 'runescape';
+	font-size: 26px;
+	text-align: center;
+	text-shadow: 2px 2px black;
+}
+#logButtons{
+	width: 100px;
+	height: 313px;
+	float:left;
+	background-image: url("../images/logBG.png");
+	
+	border-image-slice: 20 20 20 20;
+	border-image-width: 20px 20px 20px 20px;
+	border-image-outset: 5px 5px 5px 5px;
+	border-image-repeat: round round;
+	border-image-source: url("../images/borderL.png"); 
+}
+.selected{
+	background: #70695f;
+}
+
+.logText{
+	font-family: 'runescape';
+	text-align: left;
+	color: orange;
+	text-shadow: 2px 2px black;
+}
+#collLogContents{
+	background-image: url("../images/logoBGSmall.png");
+	height: 313px;
+	position: relative;
+	z-index: -1;
+	max-width: 410px;
+	overflow: hidden;
+	
+	border-image-slice: 20 20 20 0;
+	border-image-width: 20px 20px 20px 0px;
+	border-image-outset: 5px 5px 5px 0px;
+	border-image-repeat: round round;
+	border-image-source: url("../images/borderR.png"); 
+}
+.teamLog{
+	position: relative;
+	top: -27px;
+	left: 5px;
+}
+.collLog{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.table{
+	font-family: 'runescape';
+	text-shadow: 2px 2px black;
+	position: relative;
+}
+
+.header{
+	width: 50px;
+	height: 50px;
+	padding: 5px 5px;
+}
+table{
+	table-layout: fixed;
+}
+
+img{
+	display: block;
+}
+
+.logImg{
+	width: 100%;
+}
+.notImg{
+	opacity: 0.3;
+}
+.notTxt{
+	visibility: hidden;
+}
+#arb{
+	width: 50%;
+	position: relative;
+	left: 15px;
+}
+
+.teamBanner{
+	width: max-content;
+	margin: auto;
+	padding: 10px;
+}
