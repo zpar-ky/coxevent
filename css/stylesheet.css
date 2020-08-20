@@ -42,6 +42,7 @@ h2{
 
 li{
 	font-family: 'runescape';
+	list-style: none;
 	text-align: center;
 	font-size: 26px;
 	color: yellow;
